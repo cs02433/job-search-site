@@ -15,6 +15,8 @@
 .card {
     height: 200px;
     display: flex;
+    background-color: #b1b9e45e;
+    margin: 20px;
 }
 
 .thumbnail {
@@ -46,15 +48,13 @@
     height: 40px;
     margin-top: 30px;
 }
-.bg-grey {
-    margin: 20px;
-    background-color: azure;
-}
+
 
 
 
 .ad-banner {
-    width: 300px;
+    width: 800px;
+    margin: 20px;
 }
 
 .bg-red {
@@ -69,4 +69,31 @@
 
 .bg-yellow {
     background-color: yellow;
+}
+
+.description {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    background-color: #96965469;
+}
+
+.profile {
+    flex-grow: 2;
+    padding-right:20px; 
+}
+
+.trivial-details {
+    width: 800px;
+}
+
+.qualification li {
+    margin-top: 10px;
+}
+
+.shadow {    
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15), 0 2px 3px rgba(0,0,0,.2);
+    transition: box-shadow 83ms;
+    background-clip: padding-box;
+    border-radius: 5px;
 }
