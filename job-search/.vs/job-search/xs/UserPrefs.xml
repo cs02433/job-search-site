@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{A1275214-9F68-40FD-AE90-7C3AD57BAC0B}|Default">
+  <MonoDevelop.Ide.ItemProperties.job-search PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../js/tsconfig.json">
+    <Files>
+      <File FileName="../js/tsconfig.json" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
