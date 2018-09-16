@@ -1,11 +1,15 @@
-class Job {
+export class Job {
     title: string
     private _description: string
     private _thumbnail_url: string
-    private _education_qualification: string
+    private _education_qualification: string[]
     private _experience: string
     private _pay: string
-    private _procedure: string
+    private _procedure: string[]
+    industry: string;
+    minimum_qualification: string;
+    location: string;
+    work_type: string[];
 
     constructor(title: string) {
         this.title = title;
@@ -29,12 +33,12 @@ class Job {
     }
 
     
-    get education_qualification() : string {
+    get education_qualification() : string[] {
         return this._education_qualification;
     }
 
     
-    set education_qualification(v : string) {
+    set education_qualification(v : string[]) {
         this._education_qualification = v;
     }
     
@@ -57,12 +61,12 @@ class Job {
         this._pay = v;
     }
     
-    get procedure() : string {
+    get procedure() : string[] {
         return this._procedure;
     }
 
     
-    set procedure(v : string) {
+    set procedure(v : string[]) {
         this._procedure = v;
     }
     

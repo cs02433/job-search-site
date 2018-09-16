@@ -7,22 +7,22 @@
         src="https://media.licdn.com/dms/image/C4D0BAQFB40olEL2zEg/company-logo_200_200/0?e=1544659200&amp;v=beta&amp;t=N73swbnvRnr-J3fWMknZ4N_SSlzjNjjWEhBdy_Y2rHY">
       </div>
       <div class="summary">
-        <div class="title"><span><h1>Barclays</h1></span></div>
+        <div class="title"><span><h1>{{job.title}}</h1></span></div>
         <div class="sub-title">
           <p>
             <span class="industries">
-              Financial Services
+              {{job.industry}}
             </span>
             <span class="location">
-              London
+              {{job.location}}
             </span>
             <span class="education">
-              BEd
+              {{job.minimum_qualification}}
             </span>
         </p>
         </div>
         <div class="actions">
-          <input type="button" class="apply" value="Apply"/>
+          <input type="button" (click)="apply()" class="apply" value="Apply"/>
         </div>
       </div>
     </div>
