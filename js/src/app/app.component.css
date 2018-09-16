@@ -10,13 +10,14 @@
     flex-grow: 2;
     width: auto;
     border: 1px;
+    margin: 10px 5px 10px 10px;
 }
 
 .card {
     height: 200px;
     display: flex;
-    background-color: #b1b9e45e;
-    margin: 20px;
+    background-color: #96965469;
+    margin-bottom: 10px;
 }
 
 .thumbnail {
@@ -54,7 +55,7 @@
 
 .ad-banner {
     width: 800px;
-    margin: 20px;
+    margin: 10px 10px 10px 5px;
 }
 
 .bg-red {
@@ -73,7 +74,6 @@
 
 .description {
     display: flex;
-    margin: 20px;
     padding: 20px;
     background-color: #96965469;
 }
